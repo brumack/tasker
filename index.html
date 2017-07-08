@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type = "text/css" href="styles.css" />
+    <title>Tasker</title>
+  </head>
+
+  <body>
+    <div class = "header">
+      <h1>Tasker</h1>
+    </div>
+    <div class = "container">
+      <table>
+        <tr>
+          <th class = "title task-header">Task</th>
+          <th class = "descrip task-header">Description</th>
+          <th class = "priority task-header">Priority</th>
+          <th class = "actions task-header">Actions</th>
+        </tr>
+        <tr class = "inputs">
+          <td><input id = "addName" type = "text" name = "task-name"></td>
+          <td><textarea id = "addDesc" name = "task-description" rows = "1" cols = "60"></textarea>
+          <td>
+            <select id = "addPrior" name = "task-priority">
+                <option value = "1">1</option>
+                <option value = "2">2</option>
+                <option value = "3">3</option>
+                <option value = "4">4</option>
+            </select>
+          </td>
+          <td>
+            <button class = "add btn btn-success">Add</button>
+          </td>
+         </tr>
+    </table>
+    <hr>
+    <table id = "content">
+    </table>
+    </div>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src = "task.js"></script>
+
+</html>

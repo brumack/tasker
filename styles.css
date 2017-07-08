@@ -1,0 +1,67 @@
+
+.container {
+  width:1000px;
+  display:block;
+  margin: 0 auto;
+  height:200px;
+}
+
+h1 {
+text-align:center;
+}
+
+table {
+  width:100%;
+}
+
+.inputs {
+  background-color:lightblue;
+  width:100%;
+  text-align:left;
+}
+
+td {
+  padding:10px;
+}
+
+.task {
+  background-color:lightgray;
+  width:100%;
+  text-align:left;
+  padding:2px;
+}
+
+.task-header {
+  font-weight:bold;
+  padding:10px;
+}
+
+.task-item {
+  padding:15px;
+}
+
+.title {
+  width:20%;
+}
+
+.descrip {
+  width:35%;
+}
+
+.priority {
+  width:5%;
+}
+
+.actions {
+  width: 20%;
+}
+
+button {
+  display:inline;
+  width:45%;
+  margin: 2px;
+}
+
+.update, .cancel {
+  display:none;
+}
